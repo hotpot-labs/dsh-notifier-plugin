@@ -5,6 +5,7 @@
 [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) 的桌面通知插件：运行结束时发送系统通知；会话进行中模型提问（`ask_user_question`）或等待审批（沙箱提权 / 工具权限）时也会即时提醒你回来处理。正文按结果区分（成功 / 失败 / 中止 / 达到 token 上限 / 被阻塞 / 被中断）。打包插件时可选两种发送方案：浏览器原生 `Notification()`（默认）或 Tauri 的 `@tauri-apps/plugin-notification`。
 
 ![预览](.github/assets/preview.png)
+![预览设置](.github/assets/preview_setting.png)
 
 ## 安装
 

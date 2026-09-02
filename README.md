@@ -5,6 +5,7 @@ English | [中文](README.zh.md)
 Desktop notifications for [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness): get a system notification when a run finishes, and an immediate one when the model asks you a question (`ask_user_question`) or waits for approval (sandbox escalation / tool permission). The body reflects the result (completed / error / aborted / max-tokens / blocked / interrupted). Delivery is pluggable at bundle time: browser-native `Notification()` (default) or Tauri's `@tauri-apps/plugin-notification`.
 
 ![Preview](.github/assets/preview.png)
+![PreviewSetting](.github/assets/preview_setting.png)
 
 ## Install
 
